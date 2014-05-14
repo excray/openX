@@ -1,0 +1,4 @@
+#ifndef LAUNCHWIDGET_H
+#define LAUNCHWIDGET_H
+
+#endif // LAUNCHWIDGET_H

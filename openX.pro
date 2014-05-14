@@ -15,7 +15,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
         openx.cpp
 
-HEADERS  += openx.h
+HEADERS  += openx.h \
+    LaunchWidget.h
 
 FORMS    += openx.ui \
     notepad.ui

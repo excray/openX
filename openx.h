@@ -2,6 +2,8 @@
 #define OPENX_H
 
 #include <QWidget>
+#include <QLineEdit>
+#include <QPushButton>
 
 namespace Ui {
 class openX;
@@ -16,10 +18,16 @@ public:
     ~openX();
 
 private slots:
-    void on_quitButton_clicked();
+    void handleButton();
 
 private:
     Ui::openX *ui;
+    QLineEdit *lineEdit;
+    QPushButton *launchButton;
+
+    void GetProcessList(QStringList& wordList);
+    bool showError();
+
 };
 
 #endif // OPENX_H
